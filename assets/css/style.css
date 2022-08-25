@@ -113,3 +113,33 @@ body {
 .answers__button.invalid {
     border: 2px solid tomato;
 }
+
+@media screen and (max-width:1024px) {
+    .welcome {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .answers__button {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container  {
+        width: 90vw;
+    }
+    .welcome {
+        width: 90vw;
+    }
+    .welcome p {
+        font-size: 20px;
+    }
+
+    .score {
+        font-size: 22px;
+        width: 20vw;
+    }
+
+}
